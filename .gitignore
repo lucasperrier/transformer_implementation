@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Experiments / artifacts
+mlruns/
+checkpoints/
+
+# Data (large / generated)
+raw/
+# If you want to keep a small sample dataset in git, remove these lines.
+data/raw/
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+
+# Exported assets (generated)
+docs/assets/latest_run_summary.json
